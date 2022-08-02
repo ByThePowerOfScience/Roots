@@ -272,7 +272,11 @@ item.ritual_grove_supplication.name=Ritual: Grove Supplication
 item.spell_chrysopoeia.name=Spell: Chrysopoiea
 item.fey_fire.name=Fey Fire
 
-#Knifes
+# Death Messages
+death.attack.bleed_damage=%1$s lost too much blood
+death.attack.bleed_damage.player=%1$s bled out whilst fighting %2$s
+
+# Knives
 item.wood_knife.name=Wooden Knife
 item.stone_knife.name=Stone Knife
 item.iron_knife.name=Iron Knife
@@ -556,7 +560,6 @@ roots.message.natures_scythe.no_modifier=This spell requires one or more of the 
 roots.message.augment.no_modifier=This spell requires one or more modifiers to be enabled to function.
 
 # Modifiers
-
 roots.modifiers.modifiers.absorption.desc=Grants you an absorption shield.
 roots.modifiers.modifiers.absorption=Absorption
 roots.modifiers.modifiers.additional_target1.desc=An additional target will be affected by Geas.
@@ -841,7 +844,7 @@ roots.modifiers.modifiers.pyroclastic_cloud.desc=Wherever Wildfire strikes, leav
 roots.modifiers.modifiers.pyroclastic_cloud=Pyroclastic Cloud
 roots.modifiers.modifiers.radius_boost.desc=Increases the radius of the cloud.
 roots.modifiers.modifiers.radius_boost=Radius Boost
-roots.modifiers.modifiers.rampant_breeding.desc=Causes nearby or targetted creatures to go into breeding mode.
+roots.modifiers.modifiers.rampant_breeding.desc=Causes nearby or targeted creatures to go into breeding mode.
 roots.modifiers.modifiers.rampant_breeding=Rampant Breeding
 roots.modifiers.modifiers.rampant_growth_i.desc=Additionally increases the radius that crops are affected.
 roots.modifiers.modifiers.rampant_growth_i=Rampant Growth
