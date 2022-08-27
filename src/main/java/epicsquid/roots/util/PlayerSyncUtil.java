@@ -5,11 +5,9 @@ import net.minecraft.entity.player.EntityPlayerMP;
 
 public class PlayerSyncUtil {
 	public static void syncPlayer(EntityPlayer player) {
-		if (player.world.isRemote) {
-			return;
+		if (!player.world.isRemote) {
+			syncPlayer((EntityPlayerMP) player);
 		}
-		
-		syncPlayer((EntityPlayerMP) player);
 	}
 	
 	public static void syncPlayer(EntityPlayerMP player) {
