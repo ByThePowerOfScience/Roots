@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "epicsquid.roots.test.mixin.init",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(INIT)",
+  "mixins": [
+    "MLoader"
+  ],
+  "client": [],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}

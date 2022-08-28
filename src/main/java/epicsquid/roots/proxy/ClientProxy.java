@@ -4,8 +4,11 @@ import epicsquid.roots.RegistryManager;
 import epicsquid.roots.client.Keybinds;
 import epicsquid.roots.client.PatchouliHack;
 import epicsquid.roots.entity.layer.AquaBubbleRenderer;
+import epicsquid.roots.test.TestCommandHandler;
 import epicsquid.roots.tileentity.*;
 import net.minecraft.client.Minecraft;
+import net.minecraft.command.CommandHandler;
+import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLLoadCompleteEvent;
@@ -26,6 +29,8 @@ public class ClientProxy extends CommonProxy {
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityRunicCrafter.class, new TileEntityRunicCrafterRenderer());
 		
 		Keybinds.init();
+		
+		ClientCommandHandler.instance.registerCommand(new TestCommandHandler());
 	}
 	
 	@Override

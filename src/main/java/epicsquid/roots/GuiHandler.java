@@ -24,6 +24,8 @@ import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 import java.util.function.Supplier;
@@ -122,7 +124,7 @@ public class GuiHandler implements IGuiHandler {
 			case LIBRARY_ID:
 				Supplier<ItemStack> staff = getStaff(player);
 				if (staff != null) {
-					return new GuiLibrary(new ContainerLibrary(player, staff, null));
+					return new GuiLibrary(new ContainerLibrary(player, staff, SpellLibraryRegistry.getData(player)));
 				}
 				break;
 		}

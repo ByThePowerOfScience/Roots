@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "epicsquid.roots.test.mixin.preinit",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(PREINIT)",
+  "mixins": [
+    "MNetworkRegistry"
+  ],
+  "client": [],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}

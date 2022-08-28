@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 // Licensed with the Apache License and used with permission
 // https://github.com/codetaylor/athenaeum/tree/master/src/main/java/com/codetaylor/mc/athenaeum/tools
 
-@SuppressWarnings("unchecked")
+@SuppressWarnings("RAW")
 public class ZenDocExporter {
 	private static String className = "";
 	

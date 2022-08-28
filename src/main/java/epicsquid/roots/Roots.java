@@ -8,6 +8,7 @@ import epicsquid.roots.init.ModDamage;
 import epicsquid.roots.init.ModItems;
 import epicsquid.roots.item.materials.Materials;
 import epicsquid.roots.proxy.CommonProxy;
+import epicsquid.roots.test.TestCommandHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "epicsquid.roots.test.mixin.def",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}
